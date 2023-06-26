@@ -1,0 +1,113 @@
+.introduction {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background: url(../public/713108.webp) no-repeat;
+    background-size: cover;
+    background-position: 50% 23%;
+
+    div:first-child {
+        margin-right: 150px;
+
+        img {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: 100% 8%;
+            border: 2px solid #b3a89e;
+            padding: 3px;
+        }
+    }
+
+    div:last-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p {
+            padding-bottom: 7px;
+        }
+
+        a {
+            width: 52%;
+        }
+
+    }
+}
+
+
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(246 245 242);
+
+    h1 {
+        text-align: center;
+        padding: 15px 0;
+        margin-bottom: 80px;
+        margin-top: 0;
+        font-size: 22px;
+        width: 100%;
+        background: linear-gradient(0.25turn, #e0dedb, #c4b8ae, #e0dedb);
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+
+    .one-project {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+
+        .picture {
+            width: 500px;
+
+            img {
+                height: 300px;
+                width: 450px;
+                border-radius: 50%;
+                cursor: pointer;
+                transition: 1.5s;
+
+                &:hover {
+                    box-shadow: 1px 2px 25px #605e5e;
+                }
+            }
+        }
+
+        .description {
+            width: 500px;
+            text-align: center;
+
+            h2 {
+                margin-bottom: 20px;
+                font-size: 18px
+            }
+        }
+
+    }
+}
+
+
+
+a {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    padding: 8px;
+    border-radius: 5px;
+    color: #c4b8ae;
+    border: 2px solid #c4b8ae;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
+
+
+    &:hover {
+        box-shadow: inset 100px 0 0 0 #c4b8ae;
+        color: white;
+    }
+}
