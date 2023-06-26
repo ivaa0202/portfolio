@@ -10,7 +10,6 @@ export default function Header() {
             <p>Hello!</p>
             <p>I am Iva Lukač</p>
             <p>Frontend Developer</p>
-            <a href="">Resume</a>
         </div>
     </div>
   )
