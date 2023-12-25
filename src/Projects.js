@@ -39,8 +39,8 @@ export default function Projects() {
                     <h2>Spotify</h2>
                     <a href="https://ivaa0202.github.io/spotify">Full project</a>
                 </div>
-                <div class="picture spotify-img">
-                    <img src="spotify-wallpaper.png" alt="" />
+                <div class="picture">
+                    <img id="spotify-img" src="spotify-wallpaper.png" alt="" />
                 </div>
             </div>
         </div>

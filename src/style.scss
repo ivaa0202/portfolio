@@ -71,11 +71,12 @@
                     box-shadow: 1px 2px 25px #605e5e;
                 }
             }
+
+            #spotify-img {
+                object-fit: cover;
+            }
         }
 
-        .spotify-img {
-            object-fit: cover;
-        }
 
         .description {
             width: 500px;
